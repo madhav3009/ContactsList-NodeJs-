@@ -1,0 +1,93 @@
+body{
+text-align: center;
+background-color: rgb(0, 0, 0);
+height: auto;
+
+}
+
+.notebook{
+    width:50%;
+    background-color:rgb(7, 120, 196) ;
+    height:100%;
+    overflow-y: auto;
+    overflow-x:hidden ;
+}
+li{ 
+    list-style-type: none;
+    color:white;
+    font-size: 2em;  
+    padding-bottom:auto;
+    
+}
+
+.contact{
+
+    list-style-type: none;
+  
+   margin-bottom:1%;
+    color:black;
+    margin-left:0%;
+    position:relative;
+    width:100%;
+ }
+
+input[type=text],input[type=number],input[type=email],button {
+    background-color: white;
+    padding: 20px;
+    width:60%;
+    margin-bottom:2%;
+    background-color: rgb(255, 255, 255);
+    border:0px;
+    outline:0px;    
+    font-size: 1.5em;
+    border-radius:5px;
+}
+li:hover{
+
+    background-color: cornflowerblue;cursor:pointer;border:wpx solid rgb(3, 55, 80)
+}
+.fa-trash,.fa-address-book{width:100%;margin-left:-5%;padding:5%;color:white;}
+.fa-trash{width:100%;margin-left:-5%;padding-bottom:5%;}
+
+button:hover{
+    cursor: pointer;
+}
+  input::placeholder{
+  color:red;
+  }
+
+  .enter{
+    position: fixed;
+    top:25%;
+    width:50%;
+    left:50%;
+    z-index:0;
+    }
+
+    @media  screen and (max-width: 600px) {
+    
+        .enter{
+            background-color: rgb(1, 0, 3);
+            left:0%;
+            top:0px; width:100%;
+            
+            }
+            .contact{
+                margin-top:50%;
+            }
+
+         .notebook{
+             width:100%;
+             
+         }  
+         
+input[type=text],input[type=number],input[type=email],button {
+    background-color: white;
+    font-size: 1em;
+    padding:10px;
+    width:60%;
+    margin-bottom:1%;
+    background-color: rgb(255, 255, 255);
+       border-radius:5px;
+} 
+    }
